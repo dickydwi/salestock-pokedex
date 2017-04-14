@@ -4,7 +4,7 @@ var assetsPath = path.join(__dirname, 'src');
 
 module.exports = {
     entry :  {
-        bundle :  ['webpack-dev-server/client?http://0.0.0.0:8080',
+        bundle :  ['webpack-dev-server/client?salty-gorge-71831.herokuapp.com',
             'webpack/hot/only-dev-server',
            path.resolve(assetsPath,'index.js')],
     },
@@ -12,7 +12,7 @@ module.exports = {
         chunkFilename: '[name].js',
         filename: '[name].js', //
         path: path.join(assetsPath ,"dist/js/"),
-        publicPath: 'http://localhost:8080/assets/'
+        publicPath: 'http://salty-gorge-71831.herokuapp.com/assets/'
     },
     module: {
         loaders: [
