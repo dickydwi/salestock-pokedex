@@ -24,11 +24,6 @@ module.exports = {
            }
         ]
     },
-    devServer: {
-      host: "http://ec2-54-255-200-61.ap-southeast-1.compute.amazonaws.com",
-      port: 8080,
-      https: true
-    },
     resolve: {
         extensions: ['', '.js', '.jsx']
     },
